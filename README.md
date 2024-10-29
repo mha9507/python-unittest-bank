@@ -1,8 +1,6 @@
 # Bank Account Example - Unit Testing with Coverage in Python
 
-This Python project demonstrates unit testing and code coverage using a simple `BankAccount` class. The project includes methods for depositing, withdrawing, and transferring funds with basic validation rules. We will implement unit tests using [JUnit](https://junit.org/junit5/), and we will measure code coverage with [JaCoCo](https://www.jacoco.org/jacoco/trunk/doc/).
-
-Note that the pom.xml file is already configured to run JaCoCo.
+This Python project demonstrates unit testing and code coverage using a simple `BankAccount` class. The project includes methods for depositing, withdrawing, and transferring funds with basic validation rules. We will implement unit tests using [unittest](https://docs.python.org/3/library/unittest.html), and we will measure code coverage with [coverage](https://coverage.readthedocs.io/en/7.6.4/).
 
 ## Prerequisites
 

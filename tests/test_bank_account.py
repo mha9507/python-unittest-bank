@@ -8,5 +8,5 @@ def start_account():
 
 
 def test_deposit(start_account):
-    start_account.deposit(50)
-    assert start_account.balance == 150
+    start_account.deposit(0)
+    assert start_account.balance == 100

@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+      - branch1   # add your branch here
+  pull_request:
+    branches:
+      - main
+      - branch1   # add your branch here
 
 jobs:
   test:
@@ -29,6 +34,4 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-        run: |
-          # Replace this with your test command, e.g., pytest
-          pytest
+        run: pytest

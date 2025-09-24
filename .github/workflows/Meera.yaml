@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+      - branch1   # add your branch here
+  pull_request:
+    branches:
+      - main
+      - branch1   # add your branch here
 
 jobs:
   test:

@@ -29,6 +29,4 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-        run: |
-          # Replace this with your test command, e.g., pytest
-          pytest
+        run: pytest
